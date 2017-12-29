@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class AppManager : MonoBehaviour {
 
-	public class State
+	public class State : MonoBehaviour
 	{
 
 	}
 	public State currentState;
 
+	public class ThisState:State
+	{
+		
+	}
+	public ThisState aGivenState;
 
-	// Use this for initialization
-	void Start () {
-		
+	void Update()
+	{
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }
